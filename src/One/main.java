@@ -1,4 +1,4 @@
-package crawlerToSql;
+package One;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,7 +12,7 @@ public class main {
 	}
 
 	public static void crawler(String name, int pages) throws IOException {
-//		爬到的內容放到此資料夾的tmp.xlsx
+//		嚙踝蕭嚙趣的嚙踝蕭嚙箴嚙踝蕭鴞對蕭嚙複改蕭嚙踝蕭tmp.xlsx
 		Runtime rt = Runtime.getRuntime();
 		try {
 			Process proc = rt.exec(String.format("python pchome.py %s %s", name, pages));
