@@ -27,7 +27,6 @@
 	<classpathentry kind="lib" path="lib/curvesapi-1.06.jar"/>
 	<classpathentry kind="lib" path="lib/fontbox-2.0.22.jar"/>
 	<classpathentry kind="lib" path="lib/graphics2d-0.30.jar"/>
-	<classpathentry kind="lib" path="lib/LICENSE"/>
 	<classpathentry kind="lib" path="lib/mssql-jdbc-9.2.1.jre11.jar"/>
 	<classpathentry kind="lib" path="lib/mssql-jdbc-9.2.1.jre15.jar"/>
 	<classpathentry kind="lib" path="lib/mssql-jdbc-9.2.1.jre8.jar"/>
