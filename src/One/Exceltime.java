@@ -22,7 +22,7 @@ public class Exceltime{
 
 	public static void main(String args[]) throws IOException {
 		
-		String path = "C:\\Users\\CC\\eclipse-workspace\\future.java\\bin\\FFXV";
+		String path = "C:\\Users\\CC\\eclipse-workspace\\future.java\\bin\\FFXV"; //Excel時間 開發中
 		
 		Workbook workbook = new HSSFWorkbook();
 		

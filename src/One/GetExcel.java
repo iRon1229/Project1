@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class GetExcel {
 
 	public static void main(String[] args)  throws EncryptedDocumentException, IOException {
-		File xlsFile = new File("C:\\Users\\CC\\eclipse-workspace\\NewWorld\\tmp.xlsx");
+		File xlsFile = new File("C:\\Users\\CC\\eclipse-workspace\\NewWorld\\tmp.xlsx"); //取得路徑xlxs檔
 
 		// 工作表
 		Workbook workbook = WorkbookFactory.create(xlsFile);

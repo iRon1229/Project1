@@ -11,9 +11,9 @@ public class ExcelWorking {
 	}
 	public static void crawler(String name, int pages) throws IOException {
 //		爬到的內容放到此資料夾的tmp.xlsx
-		Runtime rt = Runtime.getRuntime(); //可執行cmd 指令
-		try {//python pchome.py apple 1
-			rt.exec(String.format("python pchome.py %s %s", name, pages));
+		Runtime rt = Runtime.getRuntime(); 
+		try {
+			rt.exec(String.format("python pchome.py %s %s", name, pages)); //執行Python爬蟲
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
